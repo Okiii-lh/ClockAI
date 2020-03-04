@@ -1,0 +1,88 @@
+/* 打卡列表样式 start */
+.clock{
+	margin: auto;
+	width: 80%;
+	height: 80%;
+}
+.pre-clock{
+	margin-left: 1.5625rem;
+	margin-top: 2.25rem;
+	height: 6.25rem;
+	width: 13.75rem;
+	box-shadow: 0px 0px 5px 1px #777;
+	float: left;
+}
+.pre-clock:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 3px #777;
+}
+.pre-clock-left{
+	float: left;
+	width: 35%;
+	height: 100%;
+	text-align: center;
+}
+.pre-clock-left span{
+	margin: 0 auto; 
+	position: relative;
+	top: 20%;
+	font-size: 50px;
+}
+.pre-clock-right{
+	float: left;
+	width: 65%;
+	height: 100%;
+	background-color: azure;
+}
+.pre-clock-right-top{
+	padding: auto;
+	width: 100%;
+	height: 50%;
+	border-bottom: #00FFFF;
+	border-bottom-style: solid;
+	text-align: center;
+}
+.pre-clock-right-top p{
+	margin: 0 auto;
+    position: relative;
+    top: 50%;
+	transform: translateY(-50%);
+}
+.pre-clock-right-bottom{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+.pre-clock-right-bottom p{
+	margin: 0 auto; 
+    position: relative;
+    top: 50%;
+	transform: translateY(-50%);
+}
+/* 打卡列表样式 end */
+
+/* 新打卡 样式 start */
+.add{
+	margin: auto;
+	width: 80%;
+	height: 10%;
+}
+button{
+	position: absolute;
+	width: 60%;
+	height: 5rem;
+	margin-left: 10%;
+	background-color: #8DEBB9;
+	border: 0px;
+	font-size: 1.5rem;
+	border-radius: 1.875rem;
+	
+}
+button:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 1px #777;
+}
+button:focus{
+	outline: none;
+}
+/* 新打卡 样式 end */

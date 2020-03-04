@@ -1,0 +1,66 @@
+/* 提示标题样式 start */
+.content-title{
+	margin-top: 1.25rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+	text-align: center;
+}
+/* 提示标题样式 end */
+
+/* 输入框样式 start */
+.content-input{
+	margin-top: 1.25rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+	text-align: center;
+}
+.content-input input{
+	display: block; 
+	width: 40%; 
+	height: 34px; 
+	margin: 0.625rem auto;
+	padding: 6px 12px; 
+	font-size: 14px; 
+	line-height: 1.428571429; 
+	color: #555555; 
+	vertical-align: middle; 
+	background-color: #ffffff; 
+	border: 1px solid #cccccc; 
+	border-radius: 4px; 
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); 
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); 
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; 
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; 
+
+}
+/* 输入框样式 end */
+
+/* 提交按钮样式 start */
+.content-clock{
+	margin-top: 1.25rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: center;
+}
+.content-clock button{
+	width: 18.75rem;
+	height: 18.75rem;
+	font-size: 40px;
+	border-radius: 200px;
+	border: 0px;
+	background-color: #8DEBB9;
+}
+.content-clock button:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 1px #777;
+}
+.content-clock button:focus{
+	outline: none;
+}
+
+/* 提交按钮样式 start */

@@ -1,0 +1,33 @@
+/* 标题样式 start */
+.clock-title{
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/* 标题样式 end */
+
+/* 完成打卡情况样式 start */
+.clock-finish-number{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/* 完成打卡情况样式 end */
+
+/* 未打卡学生列表样式 start */
+.clock-unclock-list{
+	margin-top: 0.625rem;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.clock-unclock-list table{
+	margin-top: 0.625rem;
+	border: 1px solid #555555;
+	width: 100%;
+}
+/* 未打卡学生列表样式 end */

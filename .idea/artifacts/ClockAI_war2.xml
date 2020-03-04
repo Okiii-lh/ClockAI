@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ClockAI:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClockAI_war2</output-path>
+    <root id="archive" name="ClockAI_war.war">
+      <element id="artifact" artifact-name="ClockAI:war exploded" />
+    </root>
+  </artifact>
+</component>
